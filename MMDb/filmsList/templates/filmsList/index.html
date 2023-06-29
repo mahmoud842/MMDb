@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Films List</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="date">{{ day }} / {{ month }} / {{ year }}</div>
+        <table>
+            <thead>
+                <th>Name</th>
+                <th>Language</th>
+                <th>Year</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Harry Potter</td>
+                    <td>English</td>
+                    <td>2015</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
