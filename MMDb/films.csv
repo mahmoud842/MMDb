@@ -1,5 +1,14 @@
-name,language,year,rating
-Mad Max,en,2015,8.1
-Interstellar,en,2014,8.6
-Tenet,en,2020,8.1
-Inception,en,2010,8.8
+name,language,year,rating,type
+Mad Max,en,2015,8.1,film
+Interstellar,en,2014,8.6,film
+Tenet,en,2020,8.1,film
+Inception,en,2010,8.8,film
+My fault,es,2023,6.3,film
+Uncharted,en,2022,6.3,film
+Extraction,en,2020,6.7,film
+Extraction 2,en,2023,7.4,film
+Free guy,en,2021,7.1,film
+Venom,en,2018,6.6,film
+A whisker away,ja,2020,6.7,anime film
+mahmoud,en,500,50.0,gg
+mahmoud,en,500,50.0,gg

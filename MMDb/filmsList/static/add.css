@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    max-height: 100%;
+    background: linear-gradient(45.8deg, rgb(175, 104, 254) 9.3%, rgb(101, 223, 255) 75.1%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+form {
+    margin: 100px auto;
+    margin-bottom: 40px;
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+form > p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 8%;
+}
+
+form > p > label{
+}
+
+form > p > .input_area{
+    width: 60%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: rgb(227, 227, 227);
+}
+
+.submit-btn {
+    width: 20%;
+    align-self: center;
+    border: none;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    padding: 10px;
+    color:rgb(130, 130, 235);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.submit-btn:active {
+    background-color: rgb(130, 130, 235);
+    color: white;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.links a{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(130, 130, 235);
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.links a:active{
+    color: white;
+    background-color: rgb(130, 130, 235);
+}
+
+@media (max-width: 950px) {
+    form {
+        width: 70%;
+    }
+}

@@ -13,7 +13,8 @@
                 <th>Name</th>
                 <th>Language</th>
                 <th>Year</th>
-                <th>rating</th>
+                <th>Rating</th>
+                <th>Type</th>
             </thead>
             <tbody>
                 {% for row in films %}
@@ -22,6 +23,7 @@
                     <td>{{ row.language }}</td>
                     <td>{{ row.year }}</td>
                     <td>{{ row.rating }}</td>
+                    <td>{{ row.type }}</td>
                 </tr>
                 {% endfor %}
             </tbody>
