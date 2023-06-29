@@ -13,13 +13,17 @@
                 <th>Name</th>
                 <th>Language</th>
                 <th>Year</th>
+                <th>rating</th>
             </thead>
             <tbody>
+                {% for row in films %}
                 <tr>
-                    <td>Harry Potter</td>
-                    <td>English</td>
-                    <td>2015</td>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.language }}</td>
+                    <td>{{ row.year }}</td>
+                    <td>{{ row.rating }}</td>
                 </tr>
+                {% endfor %}
             </tbody>
         </table>
     </div>
